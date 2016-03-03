@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/myprofile_item_height"
+	android:background="@color/ieeton_color_list_bg"
+    >
+    <RelativeLayout  
+        android:id="@+id/ieeton_back"  
+        android:layout_width="wrap_content"  
+        android:layout_height="match_parent"  
+        android:background="@color/ieeton_color_list_bg"  
+        android:layout_gravity="right">  
+  
+        <Button  
+            android:id="@+id/id_unfollow"  
+            android:layout_width="wrap_content"  
+            android:layout_height="match_parent"  
+            android:background="@color/ieeton_color_red"
+            android:layout_gravity="center"  
+            android:layout_marginRight="4dp"  
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/delete"  
+            android:textColor="@android:color/white" >  
+        </Button>  
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@+id/ieeton_front"
+		android:background="@color/ieeton_color_list_bg"
+        >
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/tv_num"
+	        android:background="@drawable/button_code"
+	        android:padding="3dp"
+	        android:textColor="@color/color_white"
+	        android:textSize="16sp"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="10dp"
+	        />
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/tv_content"
+	        android:textSize="18sp"
+	        android:textColor="@color/toast_text"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@id/tv_num"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp"
+	        />
+		<View 
+			android:background="#c8c8c8"
+			android:layout_width="match_parent"
+			android:layout_height="0.5dp"
+			android:layout_alignParentBottom="true"
+			/>
+	</RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        >
+        <ImageView
+	        android:id="@+id/iv_back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:gravity="center"
+	        android:layout_marginLeft="5dp"
+	        android:background="@drawable/common_tab_bg"
+	        android:src="@drawable/back_blue"
+	        android:padding="10dp"
+	        android:focusable="true" />
+
+    </RelativeLayout> 
+
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_userlogo"
+        android:layout_marginTop="@dimen/login_margin_top"
+        android:layout_gravity="center_horizontal"
+        />
+        
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_item_height"
+        android:layout_marginLeft="@dimen/login_padding"
+        android:layout_marginRight="@dimen/login_padding"
+        android:layout_marginTop="@dimen/login_margin_top" >
+
+		<ImageView
+			android:id="@+id/iv_username"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:src="@drawable/icon_account" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/login_line" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/iv_username"
+			android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@color/color_login_hint"
+            android:textColorHint="@color/color_login_hint"
+            android:hint="@string/account_hint"
+            android:textSize="@dimen/login_text_size" >
+            <requestFocus />
+        </EditText>
+        <TextView 
+            android:id="@+id/btn_get_code"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/login_item_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/get_code"
+            android:textSize="@dimen/login_text_size"
+            android:textColor="@color/color_white"
+            android:padding="5dp"
+            android:background="@drawable/button_code_bg"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_item_height"
+        android:layout_marginLeft="@dimen/login_padding"
+        android:layout_marginRight="@dimen/login_padding"
+        >
+        <ImageView
+			android:id="@+id/iv_code"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:src="@drawable/icon_code" />
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/iv_code"
+			android:layout_marginLeft="10dp"
+            android:textColor="@color/color_login_hint"
+			android:textColorHint="@color/color_login_hint"
+			android:hint="@string/code_hint"
+            android:textSize="@dimen/login_text_size" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/login_line" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_item_height"
+        android:layout_marginLeft="@dimen/login_padding"
+        android:layout_marginRight="@dimen/login_padding"
+        >
+		<ImageView
+			android:id="@+id/iv_password"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:src="@drawable/icon_password" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/iv_password"
+			android:layout_marginLeft="10dp"
+        	android:textColor="@color/color_login_hint"
+			android:textColorHint="@color/color_login_hint"
+			android:hint="@string/password_hint"
+            android:textSize="@dimen/login_text_size" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/login_line" />
+    </RelativeLayout>    
+
+    <Button
+        android:id="@+id/regist_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/product_button"
+        android:onClick="register"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:layout_marginLeft="@dimen/login_padding"
+        android:layout_marginRight="@dimen/login_padding"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/register"
+        android:textColor="@color/color_white"
+        android:textSize="20sp" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/login_padding"
+        >
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/register_tips"
+	        android:textColor="@color/color_white"
+	        android:textSize="15sp"
+	        android:layout_gravity="center_vertical"
+	        />   
+
+		<TextView 
+			android:id="@+id/tv_agreement"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/agreement"
+			android:textColor="@color/ieeton_color_blue"
+			android:textSize="15sp"
+			android:paddingTop="5dp"
+			android:paddingBottom="5dp"
+			android:layout_gravity="center_vertical"
+			/>     
+    </LinearLayout>
+
+</LinearLayout>

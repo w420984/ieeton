@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="list_avatar_size">100dp</dimen>
+    <dimen name="text_size_list_name">17sp</dimen>
+    <dimen name="list_divider_height">5dp</dimen>
+    <dimen name="lable_description_size">14sp</dimen>
+    <dimen name="lable_padding">10dp</dimen>
+    <dimen name="login_text_size">18sp</dimen>
+    <dimen name="login_margin_top">70dp</dimen>
+    <dimen name="login_item_height">45dp</dimen>
+</resources>

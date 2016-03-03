@@ -1,0 +1,56 @@
+<resources>
+
+     <dimen name="height_top_bar">46dp</dimen>
+    <dimen name="padding_search_bar">5dp</dimen>
+    <dimen name="height_row_weixin">59dp</dimen>
+    <dimen name="size_avatar">50dp</dimen>
+    <dimen name="margin_chat_activity">10dp</dimen>
+    <dimen name="sidebar_text_size">10dp</dimen>
+     <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+
+	<dimen name="baselayout_title_height">43.33dp</dimen>
+    <dimen name="updatebar_height">62dp</dimen>
+    <dimen name="updatebar_icon_space">8dp</dimen>
+    <dimen name="pull_refresh_progress_size">32dp</dimen>
+    <dimen name="profile_button_padding">10dp</dimen>
+
+    <!-- 相册 -->
+	<dimen name="photo_album_left_margin">15dp</dimen>
+	<dimen name="photo_album_image_max_size">100dp</dimen>
+	<dimen name="photo_album_list_padding">0dp</dimen>
+	<dimen name="photo_album_bottom_margin">73dp</dimen>
+	<dimen name="photo_album_gride_padding">4dp</dimen>
+	<dimen name="photo_album_bucket_list_divider">1dp</dimen>
+    <dimen name="photo_album_empty_magin_top">75dp</dimen>
+    
+	<!--     title bar -->
+	<dimen name="title_bar_btn_padding_left">10dp</dimen>
+	<dimen name="title_bar_btn_padding_right">10dp</dimen>
+	<dimen name="title_bar_btn_hight">32dp</dimen>
+	<dimen name="title_bar_item_padding_top">10dp</dimen>
+	<dimen name="title_bar_item_padding_right">0dp</dimen>
+    
+    
+    <dimen name="login_padding">30dp</dimen>
+    <dimen name="recommond_pic_height">190dp</dimen>
+    <dimen name="recommond_item_height">200dp</dimen>
+    <dimen name="product_pic_height">80dp</dimen>
+    <dimen name="doctor_header_size">80dp</dimen>
+    <dimen name="doctor_list_height">120dp</dimen>
+    <dimen name="video_height">200dp</dimen>
+    <dimen name="comment_pic_size">70dp</dimen>
+    <dimen name="comment_header_size">50dp</dimen>
+    <dimen name="doctor_profile_header_size">100dp</dimen>
+    <dimen name="baidu_map_height">200dp</dimen>
+    <dimen name="comment_input_height">100dp</dimen>
+    <dimen name="add_comment_pic_height">100dp</dimen>
+    <dimen name="discover_pic_size">70dp</dimen>
+    <dimen name="lable_title_size">20sp</dimen>
+    <dimen name="age1_margin_top">150dp</dimen>
+    <dimen name="age2_margin_top">170dp</dimen>
+    <dimen name="age3_margin_top">110dp</dimen>
+    <dimen name="age4_margin_top">80dp</dimen>
+    <dimen name="lable_padding_top">135dp</dimen>
+    <dimen name="age_button_margin_bottom">50dp</dimen>
+</resources>

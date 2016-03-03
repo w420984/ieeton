@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/ieeton_color_list_bg"
+    android:orientation="vertical"
+    >
+    <RelativeLayout 
+        android:id="@+id/rl_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/color_white"
+        >
+	    <TextView 
+	        android:id="@+id/tv_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:text="@string/tab_name_discovery"
+	        android:textSize="20sp"
+	        android:textColor="@color/ieeton_color_blue"
+	        />
+    </RelativeLayout>
+    
+    <ImageView 
+	    android:id="@+id/divider_1"
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:src="@drawable/home_line"
+		android:scaleType="fitXY"
+        /> 
+                
+    	
+    <com.ieeton.user.view.PullDownView 
+        android:id="@+id/list_pulldown_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <com.ieeton.user.view.MyListView 
+            android:id="@+id/lv_discover_list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@color/ieeton_color_list_bg"
+            android:divider="@drawable/home_line"
+            android:scrollbars="@null"
+            />
+    </com.ieeton.user.view.PullDownView>
+           
+</LinearLayout>

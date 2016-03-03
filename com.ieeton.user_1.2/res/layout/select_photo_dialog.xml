@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ieeton_color_title_white"
+    android:orientation="vertical" >
+    
+	<Button 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/btn_camera"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"
+	    android:background="@drawable/btn_common_blue"
+	    android:text="@string/photo_camera"
+	    android:textSize="20sp"
+	    android:textColor="@color/color_white"
+	    android:padding="5dp"
+	    />
+	
+	<Button 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/btn_album"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"
+	    android:background="@drawable/btn_common_blue"
+	    android:text="@string/photo_album"
+	    android:textSize="20sp"
+	    android:textColor="@color/color_white"
+	    android:padding="5dp"
+	    />
+	
+	<ImageView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:layout_marginTop="10dp"
+	    android:background="@color/color_gray"
+	    />
+	
+	<Button 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/btn_cancel"
+	    android:background="@color/ieeton_color_title_white"
+	    android:text="@string/cancel"
+	    android:textSize="20sp"
+	    android:textColor="@color/ieeton_color_blue"
+	    android:gravity="center"
+	    android:padding="10dp"
+	    />
+</LinearLayout>

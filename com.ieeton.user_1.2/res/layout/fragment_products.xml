@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ieeton_color_list_bg"
+    >
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_empty"
+        android:src="@drawable/nodata"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        />
+	<com.ieeton.user.view.PullDownView 
+        android:id="@+id/pulldown_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+	    <ListView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:id="@+id/list"
+	        android:background="@color/color_white"
+	        android:divider="@drawable/home_line"
+        	android:scrollbars="none"
+	        />
+    </com.ieeton.user.view.PullDownView>
+</RelativeLayout>

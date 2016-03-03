@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ieeton_color_list_bg"
+    android:orientation="vertical" >
+    
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="15dp"
+	    android:id="@+id/rl_search"
+	    android:background="@drawable/search_input"
+	    >
+	    <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_input"
+            android:visibility="gone"
+            />
+	    <RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:gravity="center"
+	        >
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/iv_search"
+	            android:src="@drawable/search_icon"
+	            android:layout_centerVertical="true"
+	            />
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@id/iv_search"
+	            android:layout_marginLeft="5dp"
+	            android:layout_centerVertical="true"
+	            android:textColor="@color/color_gray"
+	            android:text="@string/search_hint"
+	            android:textSize="16sp"
+            />
+	    </RelativeLayout>
+	</RelativeLayout>
+	
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@id/rl_search"
+	    >
+		<ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/iv_empty"
+	        android:src="@drawable/nodata"
+	        android:layout_centerInParent="true"
+	        android:visibility="invisible"
+	        />
+	</RelativeLayout>
+	
+    <com.ieeton.user.view.PullDownView 
+        android:id="@+id/pulldown_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_search"
+        >
+	    <ListView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:id="@+id/list"
+	        android:background="@color/color_white"
+	        android:divider="@drawable/home_line"
+        	android:scrollbars="none"
+	        />
+    </com.ieeton.user.view.PullDownView>
+		
+</RelativeLayout>

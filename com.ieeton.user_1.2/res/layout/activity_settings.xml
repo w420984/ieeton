@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ieeton_color_list_bg">
+
+	    
+	<!-- 用户登录，显示myprofile详情  -->
+	<LinearLayout
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@color/ieeton_color_list_bg"
+    	android:orientation="vertical">
+        <!-- 标题  -->
+		<RelativeLayout 
+	        android:id="@+id/title_bar"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/height_top_bar"
+	        android:background="@color/ieeton_color_title_white"
+	        android:gravity="center_vertical"
+	        >
+	        <include layout="@layout/commom_back_btn" />
+	  
+	        <TextView 
+		        android:id="@+id/tv_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/setting"
+		        android:textSize="20sp"
+		        android:textColor="@color/ieeton_color_title_gray"
+		        android:layout_centerInParent="true"
+		        />
+    	</RelativeLayout> 
+	    
+	    <ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+	        />     
+	    
+	    <!-- 设置 -->
+	    <ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="20dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+	        /> 
+	
+	    <RelativeLayout 
+	        android:id="@+id/rl_my_setting"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        >
+	        
+	        <ImageView
+	            android:id="@+id/iv_right_tangle_aboutus"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true" 
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="10dp"
+	            android:src="@drawable/right_arrow_icon"
+	            />
+	        
+			<TextView
+	            android:id="@+id/tv_account_details"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true" 
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="15dp"
+	            android:text="@string/new_message_notify"
+	            android:textColor="@android:color/black"
+	            android:textSize="18sp" />
+	    </RelativeLayout>
+	    
+	    <ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+			android:layout_marginLeft="15dp"
+	        /> 
+	
+	    <RelativeLayout 
+	        android:id="@+id/rl_feedback"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        >
+
+	        <com.ieeton.user.view.SliderSwitchView 
+	            android:id="@+id/slider_sound_onoff"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true" 
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="10dp"
+	            />
+	
+		    <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true" 
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="15dp"
+	            android:text="@string/sound_from_loudspeaker"
+	            android:textColor="@android:color/black"
+	            android:textSize="18sp" />
+	    </RelativeLayout>
+
+	    <ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+			android:layout_marginLeft="15dp"
+	        /> 
+	
+	    <RelativeLayout 
+	        android:id="@+id/rl_setting"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:visibility="gone"
+	        >
+
+	        <com.ieeton.user.view.SliderSwitchView 
+	            android:id="@+id/slider_cache_onoff"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true" 
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="10dp"
+	            />
+	
+		    <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true" 
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="15dp"
+	            android:text="@string/auto_clear_cache"
+	            android:textColor="@android:color/black"
+	            android:textSize="18sp" />
+	    </RelativeLayout>
+	    
+	    <ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+			android:layout_marginLeft="15dp"
+			android:visibility="gone"
+	        /> 
+	        
+	    <RelativeLayout 
+	        android:id="@+id/rl_clean_cache"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        >
+	        
+	        <ImageView
+	            android:id="@+id/iv_right_clean_cache"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true" 
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="10dp"
+	            android:src="@drawable/right_arrow_icon"
+	            />
+	        <TextView
+	            android:id="@+id/tv_clean_cache"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true" 
+	            android:layout_toLeftOf="@id/iv_right_clean_cache"
+	            android:layout_marginLeft="15dp"
+	            android:text="@string/default_cache_size"
+	            android:textColor="@color/ieeton_color_red"
+	            android:textSize="18sp" />
+	        			
+			<TextView
+	            android:id="@+id/tv_clean_cache"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true" 
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="15dp"
+	            android:text="@string/clear_cache"
+	            android:textColor="@android:color/black"
+	            android:textSize="18sp" />
+	    </RelativeLayout>
+	    		    
+	    <ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+	        />   
+	    	    
+	    <ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="20dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+	        /> 
+	
+	    <RelativeLayout 
+	        android:id="@+id/rl_exit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:background="@color/ieeton_color_red"
+	        >
+
+		    <TextView
+	            android:id="@+id/tv_account_balance"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:layout_marginLeft="15dp"
+	            android:text="@string/exit"
+	            android:textColor="@android:color/white"
+	            android:textSize="18sp" />
+	    </RelativeLayout>
+	    
+	    <ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+	        />    
+	    	    	        
+	</LinearLayout>    
+
+</ScrollView>

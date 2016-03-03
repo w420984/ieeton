@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout  
+        android:id="@+id/ieeton_back"  
+        android:layout_width="wrap_content"  
+        android:layout_height="match_parent"  
+        android:background="@color/ieeton_color_list_bg"  
+        android:layout_gravity="right">  
+  
+        <Button  
+            android:id="@+id/id_unfollow"  
+            android:layout_width="wrap_content"  
+            android:layout_height="match_parent"  
+            android:background="@color/ieeton_color_red"
+            android:layout_gravity="center"  
+            android:layout_marginRight="4dp"  
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/unattend"  
+            android:textColor="@android:color/white" >  
+        </Button>  
+    </RelativeLayout>  
+    <RelativeLayout 
+        android:id="@+id/ieeton_front"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/ieeton_color_list_bg"
+		android:padding="10dp"
+        >
+	    <ImageView
+	        android:id="@+id/iv_doctor_icon"
+	        android:layout_width="60dp"
+	        android:layout_height="60dp"
+	        android:src="@drawable/mini_avatar_shadow" 
+	        android:layout_alignParentLeft="true"
+	        android:scaleType="fitXY"
+	        />
+
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_toRightOf="@id/iv_doctor_icon"
+	    	android:layout_marginLeft="10dp"
+	        >
+	        
+	        <ImageView
+		        android:id="@+id/iv_action_icon"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/icon_follow" 
+		        android:layout_alignParentRight="true"
+		        android:layout_centerInParent="true"
+		    	android:padding="5dp"
+		    	android:visibility="gone"
+	        	/>
+	        
+		    <LinearLayout 
+		        android:id="@+id/ll_doctor_main"
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_toLeftOf="@id/iv_action_icon"
+		    	android:orientation="vertical"
+		        >
+		        <TextView 
+		            android:id="@+id/tv_doctor_name"
+		            android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" 
+			        android:paddingRight="20dp"
+			        android:textSize="18sp"
+			        android:textColor="@android:color/black"
+		            />
+		        <TextView 
+		            android:id="@+id/tv_doctor_description"
+		            android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" 
+					android:singleLine="true"
+			        android:padding="2dp"
+			        android:textColor="@color/color_gray"
+			        android:text="@string/no_remark"
+		            />
+			</LinearLayout>
+	    </RelativeLayout>
+	    
+    </RelativeLayout>
+    
+</FrameLayout>

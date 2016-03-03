@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout  
+        android:id="@+id/ieeton_back"  
+        android:layout_width="80dp"  
+        android:layout_height="match_parent"  
+        android:background="@color/color_white"  
+        android:layout_gravity="right">  
+  
+        <Button  
+            android:id="@+id/id_unfavorite"  
+            android:layout_width="match_parent"  
+            android:layout_height="match_parent"  
+            android:background="@color/ieeton_color_red"
+            android:layout_gravity="center"  
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/unCollect"  
+            android:textColor="@android:color/white" >  
+        </Button>  
+    </RelativeLayout>  
+    
+    <LinearLayout 
+        android:id="@+id/ieeton_front"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@color/color_white"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp"
+        >
+	    <ImageView 
+	        android:layout_width="@dimen/discover_pic_size"
+	        android:layout_height="@dimen/discover_pic_size"
+	        android:id="@+id/iv_pic"
+	        android:layout_marginLeft="5dp"
+	        android:scaleType="centerCrop"
+	        android:src="@drawable/dicover_pic"
+	        />
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/tv_title"
+	        android:layout_marginLeft="10dp"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="@color/color_black"
+	        android:textSize="18sp"
+	        android:maxLines="2"
+	        android:ellipsize="end"
+	        />
+    </LinearLayout>
+</FrameLayout>

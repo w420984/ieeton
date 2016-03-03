@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/ieeton_color_list_bg">
+    <RelativeLayout 
+        android:id="@+id/rl_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/ieeton_color_title_white"
+        >
+        <include layout="@layout/commom_back_btn" />
+        
+	    <TextView 
+	        android:id="@+id/tv_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:textSize="20sp"
+	        android:textColor="@color/ieeton_color_title_gray"
+	        />
+	    
+	    <ImageView
+	        android:id="@+id/btn_follow_unfollow"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="15dp"
+	        android:padding="5dp"
+	        />
+    </RelativeLayout>
+    
+    <ImageView 
+	    android:id="@+id/divider_1"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:src="@drawable/list_divider"
+		android:scaleType="fitXY"
+		android:layout_below="@id/rl_title_bar"
+        /> 
+        
+
+    <com.ieeton.agency.view.PullDownView 
+        android:id="@+id/list_pulldown_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/divider_1"
+        >
+        <ListView 
+            android:id="@+id/lv_artical_list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@color/ieeton_color_list_bg"
+            android:divider="@null"
+            android:scrollbars="@null"
+            />
+
+    </com.ieeton.agency.view.PullDownView>
+
+</RelativeLayout>

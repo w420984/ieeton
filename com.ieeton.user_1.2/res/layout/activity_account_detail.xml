@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ieeton_color_list_bg"
+    android:orientation="vertical" >
+    
+	<com.ieeton.user.view.PullDownView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/pulldown_view"
+	    android:background="@color/color_white"
+	    >
+		<ListView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="15dp"
+		    android:id="@+id/list"
+		    android:divider="@drawable/home_line"
+		    />
+	</com.ieeton.user.view.PullDownView>
+	
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@+id/empty_text"
+	    android:textSize="18sp"
+	    android:text="@string/no_account_details"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:visibility="gone"
+	    />
+	
+</LinearLayout>

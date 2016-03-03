@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ieeton_color_list_bg">
+    <RelativeLayout 
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/ieeton_color_title_white"
+        android:gravity="center_vertical"
+        >
+        <include layout="@layout/commom_back_btn" />
+  
+        <TextView 
+	        android:id="@+id/tv_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/about_us"
+	        android:textSize="20sp"
+	        android:textColor="@color/ieeton_color_title_gray"
+	        android:layout_centerInParent="true"
+	        />
+    </RelativeLayout> 
+	
+	
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/about_icon"
+	    android:layout_below="@id/title_bar"
+	    android:layout_marginTop="50dp"
+	    android:layout_centerHorizontal="true"
+	    />
+	<TextView 
+	    android:id="@+id/tv_email"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/color_gray"
+	    android:textSize="16sp"
+	    android:text="@string/contact_email"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="25dp"
+	    android:visibility="gone"
+	    />
+	<TextView 
+	    android:id="@+id/tv_company"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/color_gray"
+	    android:textSize="16sp"
+	    android:text="@string/company"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="25dp"
+	    />
+	<TextView 
+	    android:id="@+id/tv_contact_us"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/color_gray"
+	    android:textSize="16sp"
+	    android:text="@string/contact_number"
+	    android:layout_centerHorizontal="true"
+	    android:layout_above="@+id/tv_company"
+	    android:layout_marginBottom="3dp"
+	    />	
+	<TextView 
+	    android:id="@+id/tv_version"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="16sp"
+	    android:textColor="@color/color_gray"
+	    android:layout_centerHorizontal="true"
+	    android:layout_above="@id/tv_contact_us"
+	    android:layout_marginTop="3dp"
+	    />
+			
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_back"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerInside"
+        android:background="@drawable/common_tab_bg"
+        android:padding="10dp"
+        android:src="@drawable/back_blue" />
+    
+    <TextView 
+        android:id="@+id/tv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/ieeton_color_blue"
+        android:paddingLeft="5dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">大大健康</string>
+    <string name="secretary_default_name">大大秘书</string>
+    <string name="copy_right">Copyright © 2015 医通科技</string>
+    <string name="text_ack_msg">已读</string>
+    <string name="text_delivered_msg">送达</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="button_pushtotalk">按住说话</string>
+    <string name="button_send">发送</string>
+    <string name="move_up_to_cancel">手指上滑，取消发送</string>
+    <string name="release_to_cancel">松开手指，取消发送</string>
+    <string name="send_fail">发送消息失败,</string>
+    <string name="delete_message">删除消息</string>
+    <string name="copy_message">复制消息</string>
+    <string name="delete_voice">删除语音</string>
+    <string name="delete_video">删除视频</string>
+    <string name="delete">删除</string>
+    <string name="resend">重发</string>
+    <string name="confirm_resend">确认重发该信息？</string>
+    <string name="connect_failuer_toast">请检查网络或稍候重试</string>
+    <string name="copy">复制</string>
+    <string name="forward">转发</string>
+    <string name="button_uploadlog">上传运行日志</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="prompt">提示</string>
+    <string name="location_recv">[%1$s的位置]</string>
+    <string name="location_message">位置信息</string>
+    <string name="recording_video">录制视频</string>
+       <string name="location_prefix">[我的位置]</string>
+    <string name="voice">[语音]</string>
+    <string name="picture">[图片]</string>
+    <string name="video">[视频]</string>
+    <string name="file">[文件]</string>
+    <string name="voice_call">[语音通话]</string>
+    <string name="cant_unfollow_xiaomishu">臣妾做不到啊！！</string>
+    <string name="cant_unfollow_dadajiankang">友尽？不可能，我不信！</string>
+
+    <string name="attach_take_pic">拍照</string>
+    <string name="attach_picture">图片</string>
+    <string name="attach_location">位置</string>
+    <string name="attach_video">视频</string>
+    <string name="attach_file">文件</string>
+    <string name="attach_voice_call">语音电话</string>
+    <string name="attach_video_call">视频通话</string>
+    
+    
+    
+    <string name="button_save">保存</string>
+    <string name="search_header">S</string>
+    <string name="new_message">您收到一条新的大大消息</string>
+    <string name="new_incoming_messages">给你发来了%s条消息，快来看看吧!</string>
+    <string name="new_messages">您收到%1$s位大大用户发来的%2$s条消息</string>
+    
+    <string name="recoding_fail">录音失败，请重试！</string>
+    <string name="select_contacts">选择联系人</string>
+    <string name="confirm_forward_to">确定转发到：%1$s ?</string>
+      <string name="logout">退出登录</string>
+    <string name="logout_hint">退出后不会删除任何历史数据，下次登录依然可以使用本账号</string>
+      <string name="connect_conflict">同一帐号已在其他设备登录</string>
+      
+      
+    <string name="PediatricsIOException">无法连接到网络，请检查网络配置</string>
+    <string name="OthersException">未知错误</string>
+    <string name="PediatricsParseException">服务器数据异常</string>
+	<string name="loading">加载中...</string>
+    
+    <string name="login">登录</string>
+    <string name="account_hint">手机号</string>
+    <string name="nick_name">昵称</string>
+    <string name="password_hint">密码</string>
+    <string name="password">密码</string>
+    <string name="register_password">密　码</string>
+    <string name="register_entry">新用户注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="login_3rd_account">使用第三方登陆</string>
+    <string name="register">注册</string>
+    <string name="register_account_hint">请输入手机号码</string>
+    <string name="register_password_hint">请输入6-18位密码</string>
+    <string name="nick_hint">昵称请输入4-20个字符</string>
+    <string name="nickname_limit_hint">有效长度：4-20个字符(2-10个汉字)</string>
+    <string name="code_hint">验证码</string>
+    <string name="code">验证码</string>
+    <string name="get_code">获取验证码</string>
+    <string name="re_get_code">重新获取</string>
+    <string name="nick_containt_special_character">昵称中包含非法字符</string>
+    <string name="input_error">请填写正确的账号和密码</string>
+    <string name="register_tips">注册即视为同意</string>
+    <string name="agreement">《大大健康用户协议》</string>
+    <string name="mobile_number">手机号</string>
+    <string name="new_password_hint">新密码</string>
+    <string name="input_account_error">请填写正确的11位手机号</string>
+    <string name="input_password_error">请填写正确的登录密码</string>
+    <string name="input_code_error">请填写正确的验证码</string>
+    <string name="reset_passwrod">重置密码</string>
+    <string name="get_code_failed">获取验证码失败</string>
+    <string name="get_code_success">获取验证码成功，请稍后查看短信</string>
+    <string name="register_failed">注册失败</string>
+    <string name="register_success">注册成功</string>
+    <string name="login_failed">登录失败</string>
+    <string name="login_type_error">您登录的帐号为机构帐号，请使用大大健康机构版登录</string>
+    <string name="reset_password_failed">重置密码失败</string>
+    <string name="reset_password_success">重置密码成功</string>
+    <string name="login_guaid_message">登陆后您可与机构专家直接沟通</string>
+    <string name="password_check_error">两次输入的新密码不一致</string>
+    <string name="second">秒</string>
+    
+    <string name="tab_name_message">消息</string>
+    <string name="tab_name_doctor">首页</string>
+    <string name="tab_name_discovery">发现</string>
+    <string name="tab_name_myprofile">我的</string>
+    <string name="attend">关注</string>
+    <string name="unattend">取消关注</string>
+    <string name="addattend">加关注</string>
+    <string name="product_outline">产品已下架，不能购买</string>
+    <string name="activity_outline">活动已结束，不能参与</string>
+    
+    <string name="default_doctor_nickname">大大专家</string>
+    
+    <string name="doctor_detail">专家详情</string>
+    <string name="fans">粉丝</string>
+    <string name="consultation">咨询</string>
+    <string name="article">文章</string>
+    <string name="graphic_consultation">图文咨询</string>
+    <string name="call_consultation">电话咨询</string>
+    <string name="collect_product">收藏产品</string>
+    <string name="unCollect">取消收藏</string>
+    <string name="attend_user">关注商家</string>
+    <string name="consulting_hour">坐诊时间</string>
+    <string name="address">地址</string>
+    <string name="operation_failed">操作失败</string>
+    <string name="operation_succes">操作成功</string>
+    <string name="attend_succes">已关注</string>
+    <string name="unattend_succes">已取消关注</string>
+    <string name="chat_service_is_unavlable">暂不提供图文咨询 </string>
+    <string name="call_service_is_unavlable">暂不提供电话咨询 </string>
+    <string name="price_free">免费</string>
+    <string name="call_price">定价：%s元/分钟</string>
+    <string name="call_price_free">定价：免费</string>
+    <string name="call_price_quire">定价：查询中...</string>
+    <string name="rest_money">余额：%d元</string>
+    <string name="update_rest_money">余额：查询中...</string>
+    <string name="call_tips">咨询电话平均时长5~10分钟</string>
+    <string name="confirm_phone_num">请确保当前使用的大大健康账号绑定的是当前使用的手机号码</string>
+    <string name="add_money">立即充值</string>
+    <string name="insufficient_balance">对不起，你剩余电话咨询时间小于1分钟，请充值</string>
+    <string name="doctor_busy">对不起，你呼叫的专家正忙，请稍后再试或咨询其他专家</string>
+    <string name="doctor_offline">对不起，你呼叫的专家不在线，请稍后再试或咨询其他专家</string>
+    <string name="doctor_begin_conversation">您好，很高兴为您服务！</string>
+    <string name="mishu_begin_conversation">您好，请问有什么可以帮助您的？如果您有什么建议或意见，也欢迎告知我们，我们会更加努力的改善，谢谢！</string>
+    
+    <string name="default_city_name">北京</string>
+    <string name="select_city">选择城市</string>
+    <string name="get_avaliable_city_failed">获取热门城市列表失败，请稍后再试</string>
+    
+	<string name="drop_dowm">下拉刷新</string>
+	<string name="release_update">释放更新</string>
+	<string name="doing_update">加载中</string>
+	<string name="update_time">更新于</string>
+	<string name="no_more_data">无更多数据</string>
+	<string name="no_data">暂无数据</string>
+	<string name="search">搜索</string>
+	
+	<!-- <string name="keywords_hint">医生 医院 症状</string> -->
+	<string name="history_search_keywords">历史搜索</string>
+	<string name="hot_search_keywords">热门搜索</string>
+	<string name="please_input_keywords">请输入机构专家、医院或症状来搜索</string>
+	
+	<string name="refresh">刷新</string>
+	<string name="product_detail">产品详情</string>
+	<string name="product_notice">购买须知</string>
+	<string name="lesson_date">课程时间</string>
+	<string name="activity_date">活动时间</string>
+	<string name="service_date">服务时间</string>
+	<string name="product_date">产品时间</string>
+	<string name="buy_now">立即购买</string>
+	<string name="join_now">立即报名</string>
+	<string name="generate_order">提交订单</string>
+	<string name="exchange_now">立即兑换</string>
+	<string name="exchange">兑换</string>
+	<string name="number">数量</string>
+	<string name="confirm_pay">确认支付</string>
+	<string name="pay">立即支付</string>
+	<string name="online_pay">在线支付</string>
+	<string name="account_balance">账户余额</string>
+	<string name="balance_not_enough">账户余额不足</string>
+	<string name="generate_order_failed">提交订单失败</string>
+	<string name="pay_success">支付成功！</string>
+	<string name="pay_result">支付结果</string>
+	<string name="pay_success_notice">\t\t稍后大大秘书会发送订单结果通知，您也可以通过“我的订单”查看订单状态。</string>
+	<string name="back_home">回首页</string>
+	<string name="completed">已完成</string>
+	<string name="order_date">下单时间：</string>
+	<string name="order_number">数量：</string>
+	<string name="order_total">总价：</string>
+	<string name="editor">编辑</string>
+	<string name="finished">完成</string>
+	<string name="no_favorite_article">您还未收藏任何文章</string>
+	<string name="reward_title">选择打赏金额</string>
+	<string name="reward_success">打赏成功</string>
+	<string name="reward_user">打赏用户</string>
+	<string name="confirm">确认</string>
+	<string name="confirm_order">确认订单</string>
+		
+	<string name="binding_mobile_phone">绑定手机</string>
+	<string name="binding_mobile_failed">绑定手机失败，请稍后再试</string>
+	<string name="binding_mobile_success">已绑定</string>
+	<string name="about_us">关于我们</string>
+	<string name="setting">设置</string>
+	<string name="recharge">充值</string>
+	<string name="account_details">账户明细</string>
+	<string name="my_orders">我的订单</string>
+	<string name="my_favorite">我的收藏</string>
+	<string name="select_recharge_account">选择充值金额</string>
+	<string name="no_account_details">暂无交易记录</string>
+	<string name="get_account_details_failed">获取账户明细失败</string>
+	<string name="profile_not_modify">你还没有修改个人信息，无法保存！</string>
+	<string name="edit_portrait">修改头像</string>
+	<string name="edit_password">修改密码</string>
+	<string name="edit_age">修改状态</string>
+	<string name="edit_lable">修改兴趣</string>
+	<string name="select_age">选择状态</string>
+	<string name="select_lable">选择状态</string>
+	<string name="edit_nick_name">修改昵称</string>
+	<string name="nick_cannot_empty">昵称不能为空</string>
+	<string name="distinction">性别</string>
+	<string name="city">城市</string>
+	<string name="new_message_notify">新消息提醒</string>
+	<string name="switch_new_message">接收新消息通知</string>
+	<string name="switch_voice">声音</string>
+	<string name="switch_vibration">震动</string>
+	<string name="sound_from_loudspeaker">扬声器播放语音</string>
+	<string name="auto_clear_cache">自动清理缓存</string>
+	<string name="clear_cache">清理缓存</string>
+	<string name="default_cache_size">0M</string>
+	<string name="clean_cache_summary">清除用户信息、聊天记录及图片缓存等</string>
+	<string name="setting_clear_doing">正在清理缓存…</string>
+	<string name="setting_clear_success">缓存已清除</string>
+	<string name="exit">退出登录</string>
+	
+	<string name="update_notice">非常抱歉，您需要更新应用才能继续使用</string>		
+	<string name="photo_camera">拍照</string>
+	<string name="photo_album">从相册选择</string>
+	<string name="no_sdcard_for_capture">SD卡不存在，不能拍照</string>
+	<string name="record_time_too_short">录音时间太短</string>
+	
+	<string name="viewpager_indicator">%1$d/%2$d</string>
+
+	<string name="old_password">原密码</string>
+	<string name="new_password">新密码</string>
+	<string name="new_password_check">确认新密码</string>
+	
+	<string name="fech_token_success">授权成功</string>
+	<string name="fech_token_failed">授权失败</string>
+	
+	<string name="create_share_url_failed">创建分享链接失败，请稍后再试</string>
+	<string name="select_share_content">选择分享内容</string>
+	<string name="select_all">全选</string>
+	<string name="share">分享</string>
+	<string name="no_checked_items">请选择要分享的内容</string>
+	<string name="share_title">#大大健康# 健康是大大的事儿</string>
+	<string name="share_content">我分享了和%s的咨询，大家都来看看吧！</string>
+	<string name="share_doctor">我向大家推荐了%s，赶快来关注他吧！</string>
+	
+	<string name="warning_tile">温馨提示</string>
+	<string name="login_timeout">你的登录已过期，请重新登录！</string>
+	
+	
+	<string name="contact_number">客服：</string>
+	<string name="default_number">4008636181</string>
+	<string name="contact_email">邮箱：admin@ieeton.com</string>
+	<string name="company">北京医通科技有限责任公司</string>
+	<string name="about_version">大大健康  V</string>
+	
+	<string name="region_beijing">北京</string>
+	<string name="region_shanghai">上海</string>
+	<string name="region_tianjin">天津</string>
+	<string name="region_chongqing">重庆</string>
+	<string name="region_hongkong">香港</string>
+	<string name="region_macao">澳门</string>
+	
+	<string name="no_more_articals">暂无更多文章，快去关注你感兴趣的人吧</string>
+	<string name="artical_detail">文章详情</string>
+	<string name="artical_award">打赏</string>
+	<string name="artical_favorite">收藏</string>
+	<string name="artical_favorite_success">收藏成功</string>
+	<string name="article_unfavorite_success">已取消收藏</string>
+	<string name="no_login_wranning">你还没有登陆，无法进行此操作！</string>
+	
+    <!-- 图片多选界面 相册-->
+    <string name="photo_album_bucket_title">相册</string>
+    <string name="photo_album_loading">加载中...</string>
+    <string name="photo_album_empty_message">没有照片\n你可以使用相机拍些照片</string>
+    <string name="photo_album_save">确认</string>
+    <string name="photo_album_save_number">确认\n%1$d/%2$d</string>
+    <string name="photo_album_file_deiete">图片已删除</string>
+		
+	<string name="select_from_camera">拍照</string>
+	<string name="select_from_album">从手机相册选择</string>
+	<string name="pls_insert_sdcard">请插入存储卡</string>
+	<string name="camera_not_allowed">相机不可用</string>
+    	
+	<string name="goodrate">好评</string>
+	<string name="search_hint">请输入产品名称、商户名称</string>
+	<string name="category1">服务</string>
+	<string name="category2">课程</string>
+	<string name="category3">活动</string>
+	<string name="category4">惊喜</string>
+	<string name="category5">签到</string>
+	<string name="category1_detail">服务详情</string>
+	<string name="category2_detail">课程详情</string>
+	<string name="category3_detail">活动详情</string>
+	<string name="hot_recommond">热门推荐</string>
+	<string name="km">公里</string>
+	<string name="look_user_detail">查看商家详情</string>
+	<string name="user_comment">用户评论</string>
+	<string name="more_comment">查看更多评论</string>
+	<string name="comment">评论</string>
+	<string name="send_comment">发表评论</string>
+	<string name="institution_introduce">商家详情</string>
+	<string name="other_products">所有产品</string>
+	<string name="all_doctor">所有专家</string>
+	<string name="introduce">商家简介</string>
+	<string name="personal_introduce">个人简介</string>
+	<string name="add_comment">给产品评分</string>
+	<string name="comment_hint">说点什么吧，您的意见对其他人帮助很大</string>
+	<string name="order_processing">正在处理订单...</string>
+	<string name="order_hint1">您可以通过我的订单查看进度</string>
+	<string name="btn_str1">立即预约</string>
+	<string name="btn_str2">取消预约</string>
+	<string name="btn_str3">我的订单</string>
+	<string name="btn_str4">继续逛逛</string>
+	<string name="bill">账单</string>
+    <string name="total_money">¥%d</string>
+    <string name="total_integral">%d积分</string>
+    <string name="integral">积分</string>
+    <string name="cancel_order">取消订单</string>
+    <string name="pay_product">付款</string>
+    <string name="cancel_subscribe">取消预约</string>
+    <string name="subscribe_now">正在预约</string>
+    <string name="subscribe">预约</string>
+    <string name="comment_now">评价</string>
+    <string name="delete_order">删除订单</string>
+    
+    
+    <string name="pay_success_title">支付成功</string>
+    <string name="pay_success_str1">您已成功付款%d元！</string>
+    <string name="pay_success_left">我的订单</string>						
+    <string name="pay_success_right">继续逛逛</string>						
+    <string name="exchange_success_title">兑换成功</string>
+    <string name="exchange_success_str1">恭喜您，兑换成功！</string>						
+    <string name="exchange_success_str2">您可以通过我的订单查看详情</string>						
+    <string name="exchange_success_left">我的订单</string>						
+    <string name="exchange_success_right">立即预约</string>						    
+    <string name="order_submit_title">预约提交</string>
+    <string name="order_submit_str1">正在处理订单...</string>						
+    <string name="order_submit_str2">您可以通过我的订单查看进度</string>						
+    <string name="order_submit_left">我的订单</string>						
+    <string name="order_submit_right">取消预约</string>						
+    <string name="order_cancel_title">预约取消</string>
+    <string name="order_cancel_str1">预约已经取消！</string>						
+    <string name="order_cancel_left">重新预约</string>						
+    <string name="order_cancel_right">继续逛逛</string>						
+    <string name="comment_success_title">评论成功</string>
+    <string name="comment_success_str1">感谢您的评价！</string>						
+    <string name="comment_success_str2">您的评价对其他人有很大的帮助</string>						
+    <string name="comment_success_left">我的订单</string>						
+    <string name="comment_success_right">返回首页</string>	
+    <string name="follow_title_institution">关注的机构</string>					
+    <string name="follow_title_doctor">关注的专家</string>		
+    <string name="favorite_title_product">收藏的服务</string>	
+    <string name="favorite_title_article">收藏的文章</string>
+    <string name="my_info">个人资料</string>		
+    <string name="edit_info_success">修改个人资料成功</string>
+    <string name="comment_success">评价成功</string>
+    <string name="subscribe_info">预约信息</string>
+    <string name="serial_sign">您已连续%d天签到</string>
+    <string name="had_signed">已签到</string>
+    <string name="sign_success">签到成功</string>
+    <string name="contact_us">联系我们：</string>
+    <string name="integral_rule">积分规则</string>
+    <string name="integral_not_enough">积分不足</string>
+    <string name="subscribe_full">预约已满</string>
+    <string name="is_over">已结束</string>
+    <string name="is_delete">已下架</string>
+    <string name="call_now">拨打</string>
+    <string name="call_mishu">咨询客服</string>
+    <string name="call_institution">咨询商家</string>
+    <string name="no_search_data">没有搜到相关数据</string>
+    <string name="subscribe_notice">本订单不支持在线预约，请致电%s，由客服为您服务。</string>
+    <string name="check_subscribe_info">查看预约</string>
+    <string name="user_cancel">已取消支付</string>	
+    <string name="date_day">日期</string>
+    <string name="date_time">时间</string>
+    <string name="doctor">专家</string>
+    <string name="price">价格</string>
+    <string name="describe_number">数量</string>
+    <string name="describe_mobile">预约手机</string>
+    <string name="mobile">手机</string>
+    <string name="describe_mobile_hint">接收预约成功信息</string>
+    <string name="pay_type">支付方式</string>
+    <string name="balance">余额</string>
+    <string name="weixin">微信</string>
+    
+	<!-- WXPayEntryActivity -->
+	<string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+	<string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+	
+	
+	<string name="agreement_title">用户协议</string>
+	<string name="agreement_text">
+\t\t本协议双方为北京医通科技有限责任公司（以下简称“医通科技”）与经医通科技开发的APP应用“大大健康”的注册用户（以下简称“用户”）。本协议具有合同效力。\n\n
+
+\t\t“大大健康”是一款面向广大母婴用户提供专业健康服务的APP应用产品，欢迎广大用户关注并使用 “大大健康”。您在本平台上发布、更改个人信息，与机构专家进行交流前，请仔细阅读本协议条款，如果您对本协议任何条款表示异议，您可以选择不使用 “大大健康”。您选择使用 “大大健康”，将被视为对本协议全部内容的完全认可、接受。\n\n
+一、特别提示\n\n
+1.1 本协议内容包括本协议正文及医通科技发布或将来可能发布的各类管理规定。所有管理规定为本协议不可分割的一部分，与本协议正文具有同等法律效力。\n
+1.2 用户提供网络咨询服务的个人ID帐号和密码由用户自行负责保管；用户应当对其用户帐号进行的所有活动和事件负法律责任。\n\n
+二、服务内容\n\n
+2.1 “大大健康”网络服务的具体内容由医通科技根据实际情况提供，医通科技保留随时改进和调整部分或全部网络服务的权利。\n
+2.2 用户对相关网络服务有关的设备（如个人电脑、手机、及其他与接入互联网的装置）及所需的费用（如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费）均应由用户自行负担。\n
+2.3 对于健康服务，网上的咨询均只限于根据用户的主观描述，医通科技和机构专家尽可能利用互联网技术和专业知识给予一定的解惑及建议，不保证能满足用户的所有要求，也不保证一定能达到用户的预期目的。医通科技和机构专家不会在本服务平台上进行具体的诊断等行为。\n
+2.4 医通科技要求用户提供的内容要客观科学，不含宣传或诋毁他人的言词，不得违反中华人民共和国法律或网站政策。\n\n
+三、“大大健康”使用规则\n\n
+3.1 用户在咨询过程中要言语文明，尊重机构专家，平等交流，否则机构专家有权中止服务。在咨询过程中，如机构专家有紧急事情需处理而暂停咨询，需给予理解支持。\n
+3.2 用户不应将其帐号、密码转让或出借予他人使用。如用户发现其帐号遭他人非法使用，应立即通知医通科技工作人员。因黑客行为或用户的保管疏忽导致帐号、密码遭他人非法使用，“大大健康”及医通科技不承担任何责任。\n
+3.3 对于用户通过“大大健康”上传到网站上可公开获取区域的任何内容，用户同意医通科技使用、复制、修改、改编、出版、传播和展示此等内容（整体或部分），或将此等内容编入当前已知的（官方微博、微信公众号）或以后开发的其他任何形式的产品、媒体或技术中。\n
+3.4 用户在使用“大大健康”网络服务过程中，必须遵循以下原则：\n
+3.4.1 遵守中国有关的法律和法规；\n
+3.4.2 遵守所有与网络服务有关的网络协议、规定和程序；\n
+3.4.3 不得为任何非法目的而使用网络服务系统；\n
+3.4.4 不得利用“大大健康”服务上传、展示或传播任何虚假的、骚扰性的、中伤他人的、辱骂性的、恐吓性的、庸俗淫秽的或其他任何非法的信息资料；\n
+3.4.5 不得侵犯其他任何第三方的专利权、著作权、商标权、名誉权或其他任何合法权益；\n
+3.5 医通科技对平台上注册用户发布的内容进行监督，发现不符合本协议规定的内容，有权利给予屏蔽或删除，并保留对不符合规定言论进行处理而不通知发布者的权利（包括但不限于暂停或终止用户使用网络服务的权利）。\n
+3.6 医通科技针对“大大健康”服务进行升级、服务内容或激励方式的变更通过各种方式（包括但不限于网页公告、电子邮件、短信提醒等）作出的任何声明、通知、警示等内容视为本协议的一部分，用户如使用该服务，视为用户同意相关声明、通知、警示的内容。\n\n
+四、“大大健康”服务标准\n\n
+\t\t“大大健康”图文及语音咨询免费，电话咨询会按机构专家自己设定的单价收费。\n\n
+五、服务改进和调整\n\n
+5.1 鉴于网络服务的特殊性，医通科技可能会因系统维护或升级的需要而需暂停网络服务，医通科技将尽可能事先进行通告。医通科技保留在不事先通知用户的情况下对服务的部分或全部服务进行调整的权利。\n
+5.2 如发生下列任何一种情形，医通科技有权随时中断或终止向“大大健康”注册用户提供本协议项下的网络服务而无需对用户或任何第三方承担任何责任：\n
+5.2.1 注册用户自愿注销退出；\n
+5.2.2 注册用户违反本服务条款或国家有关法律法规；\n
+5.2.3 注册用户被行政或司法机构拘留或起诉；\n
+5.2.4 其他，医通科技认为需要终止的情况。\n\n
+六、隐私保护\n\n
+6.1 保护用户隐私是“大大健康”服务平台的一项基本原则，医通科技保证不对外公开或向第三方提供单个用户的注册资料及用户在使用网络服务时存储在本服务平台的非公开内容，但下列情况除外：\n
+6.1.1 事先获得用户的明确授权；\n
+6.1.2 根据有关的法律法规要求；\n
+6.1.3 为维护社会公众的利益；\n
+6.1.4 为维护医通科技的合法权益。\n
+6.2 医通科技可能会与第三方合作向用户提供相关的网络服务，在此情况下，如该第三方同意承担与医通科技同等的保护用户隐私的责任，则医通科技有权将用户的注册资料等提供给该第三方。\n
+6.3 在不透露单个用户隐私资料的前提下，医通科技有权对整个用户数据库进行分析并对用户数据库进行商业上的利用。\n\n
+七、免责声明\n\n
+7.1 “大大健康”服务仅限于有专业机构专家所提供的健康服务，不涉及与任何建议相关的服务，不能替代机构专家与用户之间产生的服务，用户（提问者）擅自将网上机构专家建议作为处方使用的，后果自负，与“大大健康”注册机构专家及医通科技无关。\n
+7.2 “大大健康”服务平台作为母婴健康服务专业人士和母婴用户间交流互动平台，用户通过本平台发表的各种言论，并不代表医通科技赞同其观点或证实其内容的真实性，属于注册用户的个人行为。\n
+7.3 对于因不可抗力或医通科技不能控制的原因造成的网络服务中断或其它缺陷，医通科技不承担任何责任，但将尽力减少因此而给用户造成的损失和影响。\n
+7.4 用户在使用本服务平台过程中，不得发布侵犯党和国家利益的言论，不得发布泄露国家机密的言论，不得发布有损害他人声誉的言论，不得发布侵犯他人著作版权的言论等。否则，由此造成的一切纠纷或后果由用户自行承担，医通科技概不负责。\n\n
+八、协议修改\n\n
+8.1 医通科技有权随时修改本协议的任何条款，一旦本协议的内容发生变动，医通科技将会直接在官网上公布修改之后的协议内容，该公布行为视为医通科技已经通知用户修改内容。医通科技也可通过其他适当方式向用户提示修改内容。\n
+8.2 如果不同意医通科技对本协议相关条款所做的修改，用户有权停止使用“大大健康”服务。如果用户继续使用网络服务，则视为用户接受医通科技对本协议相关条款所做的修改。\n\n
+九、法律效力\n\n
+9.1 本协议的订立、执行和解释及争议的解决均应适用中国法律并受中国法院管辖。\n
+9.2 如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，任何一方均可寻求法律帮助。\n\n
+十、其他规定\n\n
+10.1 本协议构成双方对本协议之约定事项及其他有关事宜的完整协议，除本协议规定的之外，未赋予本协议各方其他权利。\n
+10.2 如本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。\n
+10.3 本协议中的标题仅为方便而设，在解释本协议时应被忽略。\n
+</string>
+
+</resources>

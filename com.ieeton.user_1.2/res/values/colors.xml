@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="common_top_bar_blue">#4ebcd3</color>
+      <color name="btn_login_normal">#007086</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#cccccc</color>
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#F7F7F7</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+     <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+     <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+     <color name="orange">#FFA500</color>
+     <color name="gray_pressed">#b5b5b6</color>
+     <color name="gray_normal">#666667</color>
+     <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    
+      <color name="voip_interface_text_color">#bababa</color>
+    
+	<color name="card_title_text_color">#85909E</color>
+	<color name="toast_text">#ff000000</color>
+	<color name="color_white">#ffffff</color>
+	<color name="color_gray">#696969</color>
+	<color name="color_black">#181818</color>
+	<color name="color_login_hint">#f5f5f5</color>
+	<color name="color_text_thirdpart">#181818</color>
+   
+   <color name="ieeton_color_blue">#62c6de</color>
+   <color name="ieeton_color_gray">#c8c8c8</color>
+   <color name="ieeton_color_title_white">#ffffff</color>
+   <color name="ieeton_color_title_gray">#616161</color>
+   <color name="ieeton_color_list_bg">#f0f0f0</color>
+   <color name="ieeton_color_red">#cb1818</color>
+   
+   <color name="hot_keywords_line1_bg">#62c6de</color>
+   <color name="hot_keywords_line2_bg">#8bd1e2</color>
+   <color name="hot_keywords_line3_bg">#a6d8e4</color>
+   
+   <color name="browser_loadingbar_progress">#ff4d90fe</color>
+   <color name="recommond_bg">#59000000</color>
+   <color name="my_profile_button_bg">#1A000000</color>
+   
+  <!-- 相册 -->
+   <color name="photo_album_bucket_color">#FFFFFF</color><!-- 相册列表title文字颜色 -->
+   <color name="photo_album_save_color">#FFFFFF</color><!-- 确认按钮文字颜色 -->
+   <color name="photo_album_title_color">#FFFFFF</color><!-- title字体颜色 -->
+   <color name="photo_album_background_color">#2D2D2D</color><!-- 相册背景 -->
+   <color name="card_pic_perss_color">#99111111</color>
+
+    <color name="navpage">#FFE1E8EB</color>
+    
+	<color name="text_lable1">#de797e</color>
+	<color name="text_lable2">#cf80db</color>
+	<color name="text_lable3">#f09b06</color>
+	<color name="text_lable4">#89c140</color>
+	<color name="text_lable5">#29abca</color>
+	<color name="bg_lable6">#7eccde</color>
+	<color name="bg_lable7">#fc8584</color>
+	<color name="bg_lable8">#f9bc4f</color>
+	<color name="bg_lable9">#9fd25c</color>
+	<color name="text_lable_description">#a7a7a7</color>
+	<color name="color_invalid_day">#cccccc</color>
+</resources>

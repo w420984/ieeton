@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ieeton_color_list_bg"
+    android:orientation="vertical" >
+    
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/rl_balance"
+	    android:background="@color/ieeton_color_title_white"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+	    >
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/tv_balance"
+	        android:textSize="18sp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="@dimen/myprofile_leftMargin"
+	        />
+	    <ImageView
+            android:id="@+id/iv_right_tangle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" 
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/right_arrow_icon"
+            />
+        
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/iv_right_tangle1"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:text="@string/withdraw"
+            android:textColor="@color/color_gray"
+            android:textSize="18sp" />
+	</RelativeLayout>
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@+id/ll_account_details"
+	    android:orientation="vertical"
+	    android:visibility="gone"
+	    >
+	    <ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+			android:layout_marginTop="20dp"
+	        /> 
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/account_details"
+		    android:textSize="18sp"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginBottom="10dp"
+		    android:layout_marginLeft="@dimen/myprofile_leftMargin"
+		    />
+		<ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+			android:layout_marginLeft="@dimen/myprofile_leftMargin"
+	        />
+		
+		<com.ieeton.agency.view.PullDownView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/pulldown_view"
+		    >
+			<ListView 
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:paddingLeft="@dimen/myprofile_leftMargin"
+			    android:id="@+id/list"
+			    />
+		</com.ieeton.agency.view.PullDownView>
+		
+		<ImageView 
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:src="@drawable/list_divider"
+			android:scaleType="fitXY"
+	        />
+	</LinearLayout>
+	
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@+id/empty_text"
+	    android:textSize="18sp"
+	    android:text="@string/no_account_details"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:visibility="gone"
+	    />
+	
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:background="@color/ieeton_color_list_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/color_white"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/message_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/tab_name_message"
+            android:textColor="@color/ieeton_color_blue"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ImageView 
+	    android:id="@+id/divider_1"
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:src="@drawable/home_line"
+		android:scaleType="fitXY"
+        /> 
+        
+    <include
+        android:id="@+id/rl_error_item"
+        layout="@layout/chat_neterror_item"
+        android:visibility="gone" />
+
+
+        <com.fortysevendeg.swipelistview.SwipeListView 
+            android:id="@+id/list"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/color_white"
+	        android:divider="@drawable/home_line"
+	        android:listSelector="#00000000"
+	        swipe:swipeOffsetLeft="200dip"
+	        swipe:swipeOffsetRight="0dp"
+	        swipe:swipeOpenOnLongPress="false"
+	        swipe:swipeMode="left"
+	    	swipe:swipeBackView="@+id/ieeton_back"
+	   		swipe:swipeCloseAllItemsWhenMoveList="true"
+	  		swipe:swipeFrontView="@+id/ieeton_front"
+	   		swipe:swipeAnimationTime="0"
+	   		swipe:swipeActionLeft="reveal"
+            />
+
+           
+    <RelativeLayout 
+		android:id="@+id/rl_no_login"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/ieeton_color_list_bg"
+		android:visibility="gone"
+		>
+        
+	    <ImageView 
+	        android:id="@+id/iv_login_logo"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/icon_userlogo"
+	        android:gravity="center_horizontal"
+	        android:layout_marginTop="50dp"
+	        />
+	    
+		<TextView
+			android:id="@+id/tv_message"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:layout_marginBottom="25dp"
+			android:layout_below="@id/iv_login_logo"
+			android:text="@string/login_guaid_message"
+			android:textColor="@color/color_gray"
+			android:textSize="20sp"
+			android:layout_marginTop="20dp"
+			/>
+
+	    
+		<LinearLayout 
+			android:id="@+id/ll_buttons"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center"
+			android:layout_below="@id/tv_message"
+			>
+			<Button 
+			    android:id="@+id/btn_register"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/register"
+				android:textColor="@color/color_white"
+				android:textSize="20sp"
+				android:background="@drawable/btn_common_blue"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp"
+				
+				/>
+			<Button 
+			    android:id="@+id/btn_login"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/login"
+				android:textColor="@color/color_white"
+				android:textSize="20sp"
+				android:background="@drawable/btn_common_blue"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp"
+				/>
+       </LinearLayout>
+       
+
+   </RelativeLayout>
+
+</LinearLayout>

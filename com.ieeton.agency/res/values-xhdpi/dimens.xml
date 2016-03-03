@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="main_bottom_height">60dp</dimen>
+    
+	<dimen name="myprofile_leftMargin">20dp</dimen>
+	<dimen name="myprofile_line_height">0.5dp</dimen>
+	<dimen name="myprofile_item_height">50dp</dimen>
+	<dimen name="myprofile_topMargin">20dp</dimen>
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:scrollbars="none"
+    android:background="#f2f0eb"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/icon_userlogo"
+	        android:layout_marginTop="15dp"
+	        android:layout_gravity="center_horizontal"
+	        />
+	    
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_marginLeft="28dp"
+			android:layout_marginRight="28dp"
+			android:layout_marginTop="25dp" >
+	
+			<ImageView
+				android:id="@+id/iv_username"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:src="@drawable/icon_account" />
+			<EditText
+				android:layout_centerVertical="true"
+				android:id="@+id/username"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginLeft="11dp"
+				android:layout_toRightOf="@id/iv_username"
+				android:hint="@string/account_hint"
+				android:background="@null"
+				android:singleLine="true"
+				android:inputType="textCapCharacters"
+				android:textColor="@color/color_gray"
+				android:textColorHint="@color/color_gray"
+				android:textSize="18sp" />
+	      
+			<View 
+				android:background="@color/color_gray"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_alignParentBottom="true"
+				/>
+		</RelativeLayout>
+	    
+	    <RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_marginLeft="28dp"
+			android:layout_marginRight="28dp"
+			android:layout_marginTop="10dp" >
+			<ImageView
+				android:id="@+id/iv_password"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:src="@drawable/icon_password" />
+	
+			<EditText
+				android:layout_centerVertical="true"
+				android:id="@+id/password"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginLeft="11dip"
+				android:layout_toRightOf="@id/iv_password"
+				android:hint="@string/password_hint"
+				android:background="@null"
+				android:singleLine="true"
+				android:inputType="textPassword"
+				android:textColor="@color/color_gray"
+				android:textColorHint="@color/color_gray"
+				android:textSize="18sp" />
+	     
+			<View 
+				android:background="@color/color_gray"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_alignParentBottom="true"
+				/>
+		</RelativeLayout>
+	
+	    <Button 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/login"
+	        android:textColor="@color/color_white"
+	        android:textSize="20sp"
+	        android:background="@drawable/button"
+	        android:layout_gravity="center_horizontal"
+	        android:gravity="center"
+	        android:layout_margin="28dp"
+	        android:onClick="login"
+	        />
+		
+	    <RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="28dp"
+	        android:layout_marginRight="28dp"
+	        >	
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/tv_forget_password"
+	            android:text="@string/forget_password"
+	            android:textSize="18sp"
+	            android:textColor="@color/color_gray"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="20dp"
+	            />
+		    <RelativeLayout 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toRightOf="@id/tv_forget_password"
+		        android:layout_marginLeft="10dp"
+		        android:onClick="register"
+		        >
+		        <ImageView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:id="@+id/rightTg"
+		            android:src="@drawable/icon_rightangle"
+		            android:layout_alignParentRight="true"
+		            android:layout_marginRight="20dp"
+		            android:layout_centerVertical="true"
+		            />
+		        
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:id="@+id/register"
+		            android:text="@string/register_entry"
+		            android:textColor="@color/color_gray"
+		            android:textSize="18sp" 
+		            android:layout_toLeftOf="@id/rightTg"
+		            android:layout_marginRight="10dp"
+		            />
+		    </RelativeLayout>
+		</RelativeLayout>
+	    
+	    <RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		    android:layout_margin="28dp"
+		    android:visibility="gone"
+	        >
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/tv_3rd_account"
+		        android:text="@string/login_3rd_account"
+		        android:textColor="@color/color_gray"
+		        android:textSize="18sp" 
+		        android:layout_centerInParent="true"
+		        />
+		    <ImageView 
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/line"
+		        android:layout_toLeftOf="@id/tv_3rd_account"
+		        android:layout_centerVertical="true"
+		        android:layout_marginRight="10dp"
+		        />
+		    <ImageView 
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/line"
+		        android:layout_toRightOf="@id/tv_3rd_account"
+		        android:layout_centerVertical="true"
+		        android:layout_marginLeft="10dp"
+		        />
+	    </RelativeLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:orientation="horizontal"
+	        android:visibility="visible"
+	        >
+	        <ImageView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:id="@+id/iv_weibo"
+	            android:src="@drawable/btn_weibo_selector"
+	            />
+	        <ImageView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:id="@+id/iv_wechat"
+	            android:src="@drawable/btn_wechat_selector"
+	            />
+	        <ImageView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:id="@+id/iv_qq"
+	            android:src="@drawable/btn_qq_selector"
+	            />
+	    </LinearLayout>
+    </LinearLayout>
+    
+</ScrollView>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <RelativeLayout
+        android:id="@+id/ly_weibo_browser"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white" >
+
+        <com.ieeton.user.view.LoadingBar
+            android:id="@+id/loading_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:id="@+id/ly_toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:background="@color/ieeton_color_title_white"
+            android:orientation="horizontal" >
+			<RelativeLayout 
+			    android:id="@+id/rl_award"
+			    android:layout_width="0dip"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:visibility="gone"
+			    >
+			    <LinearLayout 
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:layout_centerInParent="true"
+			        android:orientation="horizontal"
+			        >
+			        <ImageView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center_vertical"
+			            android:src="@drawable/btn_award_selector"
+			            />
+			        <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center_vertical"
+			            android:text="@string/artical_award"
+			            android:textColor="@color/color_gray"
+			            android:textSize="16dp"
+			            />
+			    </LinearLayout>
+			</RelativeLayout>
+			
+			<ImageView
+			    android:layout_width="1dp"
+			    android:layout_height="fill_parent"
+			    android:layout_marginTop="3dp"
+			    android:layout_marginBottom="3dp"
+			    android:src="@color/ieeton_color_list_bg"
+			    />
+			
+			<RelativeLayout 
+			    android:id="@+id/rl_favorite"
+			    android:layout_width="0dip"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    >
+			    <LinearLayout 
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:layout_centerInParent="true"
+			        android:orientation="horizontal"
+			        >
+			        <ImageView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:id="@+id/iv_favorite"
+			            android:layout_gravity="center_vertical"
+			            android:src="@drawable/discover_favorite"
+			            />
+			        <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center_vertical"
+			            android:text="@string/artical_favorite"
+			            android:textColor="@color/color_gray"
+			            android:textSize="16dp"
+			            />
+			    </LinearLayout>
+			</RelativeLayout>
+			
+			<ImageView
+			    android:layout_width="1dp"
+			    android:layout_height="fill_parent"
+			    android:layout_marginTop="3dp"
+			    android:layout_marginBottom="3dp"
+			    android:src="@color/ieeton_color_list_bg"
+			    />
+			
+			<RelativeLayout 
+			    android:id="@+id/rl_share"
+			    android:layout_width="0dip"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    >
+			    <LinearLayout 
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:layout_centerInParent="true"
+			        android:orientation="horizontal"
+			        >
+			        <ImageView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:id="@+id/iv_share"
+			            android:layout_gravity="center_vertical"
+			            android:src="@drawable/article_share"
+			            />
+			        <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center_vertical"
+			            android:text="@string/share"
+			            android:textColor="@color/color_gray"
+			            android:textSize="16dp"
+			            />
+			    </LinearLayout>
+			</RelativeLayout>
+            
+        </LinearLayout>
+
+        
+            
+		<ImageView
+		    android:id="@+id/bottom_line"
+			android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:src="@color/ieeton_color_list_bg"
+			android:layout_above="@id/ly_toolbar"
+			/>
+            
+        <RelativeLayout
+            android:id="@+id/webview_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/bottom_line"
+            android:layout_below="@id/loading_bar" >
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

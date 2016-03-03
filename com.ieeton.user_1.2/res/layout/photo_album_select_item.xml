@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="afterDescendants" >
+
+    <ImageView
+        android:id="@+id/photo_album_select_image"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:scaleType="centerCrop" />
+    <!--
+    <ImageView
+        android:id="@+id/photo_album_select_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    -->
+
+</RelativeLayout>
